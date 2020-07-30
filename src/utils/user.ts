@@ -1,7 +1,7 @@
 /* eslint-disable no-console */
 import { ThrowReporter } from 'io-ts/lib/ThrowReporter';
 
-import { UserCodec, User } from 'models/User';
+import { UserCodec, User } from 'models/user';
 
 export const proposeUser = (user?: unknown) => {
   try {
