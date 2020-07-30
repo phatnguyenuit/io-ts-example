@@ -1,4 +1,4 @@
-import { proposeUser } from './util/user';
+import { proposeUser } from 'util/user';
 
 proposeUser({
   id: 1,

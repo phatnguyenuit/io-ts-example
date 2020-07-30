@@ -1,5 +1,6 @@
 {
   "presets": [
+    "@babel/preset-typescript",
     [
       "@babel/preset-env",
       {
@@ -7,14 +8,14 @@
           "node": "current"
         }
       }
-    ],
-    "@babel/preset-typescript"
+    ]
   ],
   "plugins": [
     [
       "module-resolver",
       {
-        "root": ["./src"]
+        "root": ["./src"],
+        "extensions": [".ts", ".js"]
       }
     ]
   ]

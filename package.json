@@ -4,7 +4,9 @@
   "description": "io-ts example",
   "main": "dist/index.js",
   "scripts": {
-    "build": "npm run clean && tsc",
+    "build": "npm run clean && npm run type && npm run compile",
+    "compile": "babel src/ --out-dir dist --extensions \".ts\"",
+    "type": "tsc --declaration --emitDeclarationOnly",
     "lint": "eslint",
     "lint:fix": "npm run lint --fix",
     "type-check": "tsc --noEmit",
