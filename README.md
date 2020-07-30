@@ -17,3 +17,7 @@ io-ts example which encode/decode data type in the run time.
   ```
 
 ## Development
+
+```sh
+npx ts-node /path/to/ts/file
+```
