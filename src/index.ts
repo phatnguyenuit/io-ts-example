@@ -1,4 +1,4 @@
-import { proposeUser } from 'utils/user';
+import { proposeUser } from './utils/user';
 
 proposeUser({
   id: 1,
@@ -13,6 +13,3 @@ proposeUser({
 });
 
 proposeUser();
-
-export * from 'utils/user';
-export * from 'models/user';
